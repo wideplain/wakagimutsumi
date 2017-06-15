@@ -79,9 +79,8 @@ bottom : 0 ;
 .slider img{
   filter: brightness(0.7);
 }
-.slider h3 {
+.slider h3 h5{
   font-family: "Sawarabi Mincho";
-  font-weight: bold;
 }
 
 .slider .indicators .indicator-item .active {
