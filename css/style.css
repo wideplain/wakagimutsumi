@@ -1,0 +1,96 @@
+body {
+font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+}
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+
+.nav-wrapper {
+  background-color: rgba(173,0,121,1);
+}
+.side-nav li a {
+  font-size: 120%;
+}
+header, main, footer {
+  padding-left: 300px;
+}
+.facebook-page {
+  padding-left:16px;
+}
+.slider{
+  z-index: -1;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  .brand-logo {
+    margin-left: 0;
+  }
+  .logo-mark{
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  .mutsumi-icon-head{
+  width: 30px;
+  margin: 0px 10px -4px 0;
+  }
+}
+@media only screen and (min-width : 992px) {
+  .mutsumi-icon-head{
+  display: none;
+  }
+}
+ .brand-logo {
+  margin-left: 2%;
+  font-weight: bold;
+  font-family: "Sawarabi Mincho" 'Hiragino Mincho ProN', 'Yu Mincho';
+}
+
+.topmenu{
+  border-top:3px double rgba(173,0,121,1);
+  border-bottom:3px double rgba(173,0,121,1);
+  text-align: center;
+  margin-bottom: 30px;
+  color:black;
+  font-size: 140%;
+}
+
+.btn-btm {
+background-color : rgba(173,0,121,1);
+color : black ;
+bottom : 0 ;
+}
+
+.btn-btm:hover {
+background-color : rgba(200,0,121,1);
+color : black ;
+bottom : 0 ;
+}
+
+.padding32 {
+  padding-left: 16px;
+}
+
+.parallax-container {
+  height: "your height here";
+}
+
+
+.slider img{
+  filter: brightness(0.7);
+}
+.slider h3 {
+  font-family: "Sawarabi Mincho";
+  font-weight: bold;
+}
+
+.slider .indicators .indicator-item .active {
+  background-color : rgba(173,0,121,1);
+}
+.page-footer {
+  background-color : rgba(173,0,121,1);
+}
+
+.page-footer h5 {
+  font-weight: bold;
+}
