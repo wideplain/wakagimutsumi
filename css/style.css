@@ -39,9 +39,12 @@ header, main, footer {
   .mutsumi-icon-head{
   display: none;
   }
+  .mobile-view {
+  display: none;
+  }
 }
  .brand-logo {
-  margin-left: 2%;
+  margin-left: 1.5%;
   font-weight: bold;
   font-family: "Sawarabi Mincho" 'Hiragino Mincho ProN', 'Yu Mincho';
 }
@@ -81,6 +84,9 @@ bottom : 0 ;
 }
 .slider h3 h5{
   font-family: "Sawarabi Mincho";
+}
+.slider h3 {
+  font-size: 400%;
 }
 
 .slider .indicators .indicator-item .active {
