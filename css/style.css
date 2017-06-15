@@ -31,8 +31,8 @@ header, main, footer {
     margin: 0 auto;
   }
   .mutsumi-icon-head{
-  width: 30px;
-  margin: 0px 10px -4px 0;
+  width: 28px;
+  margin: 0px 2% -3px 0;
   }
 }
 @media only screen and (min-width : 992px) {
@@ -44,7 +44,7 @@ header, main, footer {
   }
 }
  .brand-logo {
-  margin-left: 1.5%;
+  margin-left: 2%;
   font-weight: bold;
   font-family: "Sawarabi Mincho" 'Hiragino Mincho ProN', 'Yu Mincho';
 }
