@@ -23,16 +23,16 @@ header, main, footer {
   header, main, footer {
     padding-left: 0;
   }
-  .brand-logo {
-    margin-left: 0;
+  b{
+    font-size: 70%;
   }
   .logo-mark{
     padding: 0 16px;
     margin: 0 auto;
   }
   .mutsumi-icon-head{
-  width: 28px;
-  margin: 0px 2% -3px 0;
+  width: 22px;
+  margin: 0px 2% -3.5px 0;
   }
 }
 @media only screen and (min-width : 992px) {
