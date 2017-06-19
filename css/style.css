@@ -94,9 +94,14 @@ img.top-img-pic{
  left: 5%;
 }
 
-
+.slides img{
+  sbackground: #0099f7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0099f7, #f11712); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0099f7, #f11712); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .slider img{
   filter: brightness(0.7);
+
 }
 .slider h3 h5{
   font-family: "Sawarabi Mincho";
