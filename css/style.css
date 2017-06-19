@@ -5,6 +5,10 @@ font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS�
 
 .nav-wrapper {
   background-color: rgba(173,0,121,1);
+  background-color : rgba(173,0,121,1);
+  background: #aa076b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(173,0,121,1), #61045f); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(173,0,121,1), #61045f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .side-nav li a {
   font-size: 120%;
@@ -73,13 +77,21 @@ bottom : 0 ;
  margin-left: 17px;
 }
 
+.top-img {
+  position: relative;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.7));
+}
 
 img.top-img-pic{
   max-width: 120%;
 }
 
-.parallax-container {
-  height: "300px";
+.archive-top{
+ position: absolute;
+ color: #ffffff;
+ text-shadow: 0 0 4px black;
+ top: 50%;
+ left: 5%;
 }
 
 
@@ -95,9 +107,19 @@ img.top-img-pic{
 
 .slider .indicators .indicator-item .active {
   background-color : rgba(173,0,121,1);
+
 }
+
+.card-title{
+  text-shadow: 0 0 5px black;
+}
+
+
 .page-footer {
   background-color : rgba(173,0,121,1);
+  background: #aa076b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(173,0,121,1), #61045f); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(173,0,121,1), #61045f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .page-footer h5 {
