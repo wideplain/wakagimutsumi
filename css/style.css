@@ -12,9 +12,7 @@ font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS�
 header, main, footer {
   padding-left: 300px;
 }
-.facebook-page {
-  padding-left:16px;
-}
+
 .slider{
   z-index: -1;
 }
@@ -70,12 +68,18 @@ color : black ;
 bottom : 0 ;
 }
 
-.padding32 {
-  padding-left: 16px;
+.collapsible-accordion li {
+ display:block;
+ margin-left: 17px;
+}
+
+
+img.top-img-pic{
+  max-width: 120%;
 }
 
 .parallax-container {
-  height: "your height here";
+  height: "300px";
 }
 
 
@@ -98,4 +102,8 @@ bottom : 0 ;
 
 .page-footer h5 {
   font-weight: bold;
+}
+
+.snsicons {
+  margin-right: 1%;
 }

@@ -124,3 +124,7 @@ window.addEventListener('load', function(){
   deSVG('.mutsumi-icon', true);
 });
 //deSVG end
+
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
