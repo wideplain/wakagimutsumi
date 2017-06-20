@@ -90,11 +90,16 @@ bottom : 0 ;
 
 .top-img {
   position: relative;
-  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(0,0,0,0.7));
+  background-color: rgba(173,0,121,1);
+  background-color : rgba(173,0,121,1);
+  background: #aa076b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(255,216,155,0.5), rgba(25,84,123,0.5));
+  background: linear-gradient(to left, rgba(255,216,155,0.5), rgba(25,84,123,0.5));
 }
 
 img.top-img-pic{
   max-width: 120%;
+  filter: saturate(200%);
 }
 
 .top-img-article {
