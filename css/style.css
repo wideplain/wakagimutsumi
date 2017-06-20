@@ -36,6 +36,11 @@ header, main, footer {
   width: 22px;
   margin: 0px 2% -3.5px 0;
   }
+
+  .parallax-container-article {
+  height: 300px;
+  }
+
 }
 @media only screen and (min-width : 992px) {
   .mutsumi-icon-head{
@@ -43,6 +48,12 @@ header, main, footer {
   }
   .mobile-view {
   display: none;
+  }
+  .margin5 {
+  margin: 0 5%;
+  }
+  .parallax-container-article {
+  height: 400px;
   }
 }
  .brand-logo {
@@ -84,6 +95,24 @@ bottom : 0 ;
 
 img.top-img-pic{
   max-width: 120%;
+}
+
+.top-img-article {
+  background-color : rgba(173,0,121,1);
+  background: #aa076b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgba(192,36,37,0.5), rgba(240,203,53,0.5)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgba(192,36,37,0.5), rgba(240,203,53,0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img.top-img-article {
+  max-width: 120%;
+  filter: saturate(200%);
+  filter: brightness(1);
+}
+
+
+.breadcrumbs {
+  padding-left: 2%;
 }
 
 .archive-top{
@@ -145,7 +174,6 @@ img.top-img-pic{
 
 .slider .indicators .indicator-item .active {
   background-color : rgba(173,0,121,1);
-
 }
 
 .card-title{
@@ -155,7 +183,18 @@ img.top-img-pic{
 background: #eeeeee;  /* fallback for old browsers */
 }
 
+.article-content h3 {
+  font-size: 210%;
+  font-weight:bold ;
+}
 
+.article-content-next a {
+  font-size: 120%;
+}
+
+.pg-box li.active {
+  background-color : rgba(173,0,121,1);
+}
 
 .page-footer {
   background-color : rgba(173,0,121,1);
